@@ -1,0 +1,134 @@
+h1 {
+  font-size: 54px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+#css {
+  color: yellow;
+}
+
+.carousel-wrapper {
+  height: 500px;
+  position: relative;
+  width: 1100px;
+  display: block;
+  margin: 50px auto;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.carousel-item {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 25px 50px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+  margin: 0;
+}
+
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 12px;
+}
+
+.arrow-prev {
+  left: -40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(135deg);
+
+}
+
+.arrow-next {
+  right: -40px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+[id^="item"] {
+  display: none;
+}
+
+.item-1 {
+  z-index: 2;
+  opacity: 1;
+  background-image: url("https://res.cloudinary.com/raggae/image/upload/v1639958297/VapeManiacs/Smoking_Kills_Main-wider_f5gjon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.item-2 {
+  background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958297/VapeManiacs/Smoking_Kills_2_ccemqj.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.item-3 {
+  background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958295/VapeManiacs/Smoke_Lungs_lb6yha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.item-4 {
+  background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958294/VapeManiacs/S_R_Initiatives_Thought_eewxwz.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.item-5 {
+  background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958297/VapeManiacs/Smoking_Kills_gonuan.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.item-6 {
+  background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958293/VapeManiacs/quit_smoking_vu7v18.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.item-7 {
+  background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958296/VapeManiacs/Smoking_Kills_3_bzgfbf.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+.item-8 {
+  background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958299/VapeManiacs/Vaping_1_cqgw65.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+}
+
+*:target~.item-1 {
+  opacity: 0;
+}
+
+#item-1:target~.item-1 {
+  opacity: 1;
+
+}
+
+#item-2:target~.item-2, #item-3:target~.item-3,
+#item-4:target~.item-4, #item-5:target~.item-5, 
+#item-6:target~.item-6, #item-7:target~.item-7, 
+#item-8:target~.item-8 {
+  z-index: 3;
+  opacity: 1;
+}

@@ -1,0 +1,158 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+.smoking-dead {
+    width: auto;
+    padding-right: 15px;
+    padding-top: 45px;
+    justify-content: right;
+    padding-left: 15px;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.smoking-dead-message {
+    display: inline-block;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    top: 40%;
+    text-align: center;
+} 
+
+.read-more {
+    color: white;
+    font-size: 30px;
+}
+
+.read-more-blog, .dead {
+    color: red;
+    font-weight: bolder;
+}
+
+.video {
+    padding-top: 40px;
+}
+
+.smoking-dead-message h2 {
+    color: #ffffff;
+    font-size: 300%;
+    font-size: 55px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: uppercase;
+    text-shadow: 0 2px 4.8px rgba(0, 0, 0, 0.3);
+    font-family: "Agency FB";
+    padding-top: 0;
+}
+
+.smoking-dead-message h3 {
+    color: #ffffff;
+    font-size: 600%;
+    text-shadow: none;
+    line-height: 1;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 0 2px 4.8px #0000004d;
+    font-family: "Agency FB";
+    padding-bottom: 11px;
+}
+
+.vapes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vape {
+    box-shadow: 0px 0px 30px 0px;
+    margin-top: 20px;
+    padding: 50px;
+    margin-left: 50px;
+    background-position: right 35% bottom 45%;
+    box-sizing: border-box;
+    border-radius: 15px;
+    float: left;
+    color: rgb(255, 255, 255);
+    background-color: rgba(12, 9, 9, 0.479);
+}
+
+.image-wrap {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.image-wrap>img {
+    max-width: 100%;
+}
+
+
+.vape h3 {
+    font-family: "Agency FB";
+    font-size: 42px;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.vape h4 {
+    color: #c2d4f8;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.details-btn {
+    background-color: #fd5454;
+    font-size: 1.4rem;
+    padding-top: 20px;
+    margin-top: 10px;
+    color: white;
+    padding: 0.9em 1.4em;
+    border-radius: 16px;
+}
+
+.data-buttons {
+    font-size: 1.4rem;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn.details-btn:hover {
+    background-color: rgb(192, 129, 117);
+    color: white;
+}
+
+.latest-models {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 700;
+    font-size: 84px;
+    font-family: "Agency FB";
+}
+
+.no-articles {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+    font-family: "Agency FB";
+}

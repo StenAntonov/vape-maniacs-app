@@ -1,0 +1,54 @@
+@import "typography.css";
+@import "details.css";
+@import "login-register.css";
+@import "create-edit.css";
+@import "homePage.css";
+@import "vapeCatalog.css";
+@import "navigation.css";
+@import "header.css";
+@import "footer.css";
+@import "blog.css";
+@import "aboutUs.css";
+@import "contacts.css";
+@import "myVapes.css";
+@import "notFound.css";
+@import "carousel.css";
+@import "notification.css";
+@import "modal.css";
+
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: url('https://res.cloudinary.com/raggae/image/upload/v1639958295/VapeManiacs/Smoke_1_elvfpn.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 1150px) {
+   
+}
+
+
+
+@media all and (max-width: 1200px) {
+    
+}
+
+
+@media all and (max-width: 1200px) {
+    
+}
+
